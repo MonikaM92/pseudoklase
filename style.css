@@ -1,0 +1,26 @@
+a[href^= "https://www.google.com/"] {
+    color: green;
+}
+
+a[target="_blank"] {
+   color: red;
+}
+
+#second-div p:nth-child(2n+1) {
+    color: red;
+}
+#second-div p:nth-child(2n+2) {
+    color: seagreen;
+}
+ 
+#first-div >p::after {
+    content: " -NEW";
+    color:yellow;
+    font-style: italic;
+    }
+
+body > p:nth-last-child(1):hover {
+    cursor: pointer;
+    font-style: italic;
+
+ }
